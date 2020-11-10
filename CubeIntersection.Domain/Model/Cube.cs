@@ -1,6 +1,4 @@
-﻿using CubeIntersection.Domain.Model;
-
-namespace CubeIntersection.Domain
+﻿namespace CubeIntersection.Domain.Model
 {
     public class Cube
     {
@@ -11,9 +9,9 @@ namespace CubeIntersection.Domain
             Depth = new Edge(center.Z, edgeLength);
         }
 
-        private Edge Width;
-        private Edge Height;
-        private Edge Depth;
+        public Edge Width { get; }
+        public Edge Height { get; }
+        public Edge Depth { get; }
 
     }
 }

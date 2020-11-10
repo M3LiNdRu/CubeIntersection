@@ -8,7 +8,7 @@
             End = center + length / 2.0;
         }
 
-        private double Start;
-        private double End;
+        public double Start { get; }
+        public double End { get; }
     }
 }
